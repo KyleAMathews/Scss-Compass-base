@@ -13,7 +13,6 @@ body {
 
 a {
   @include hover-link();
-  @include link-colors($link_color, $link_color, $link_color, $link_color_alt, $link_color_alt);
   font-weight: bold;
 }
 
